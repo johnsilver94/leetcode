@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.tslint": true
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "[javascript, typescript, json, graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

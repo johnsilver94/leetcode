@@ -1,0 +1,28 @@
+{
+	"name": "leetcode",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"graph": "nodemon --config nodemon.json src/graphs/directed/minGraphLengthBetweenTwoNodes.ts",
+		"dev": "nodemon --config nodemon.json src/index.ts",
+		"dev:js": "nodemon --config nodemon.json src/index.js",
+		"dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
+	},
+	"dependencies": {
+		"@types/node": "^16.4.10",
+		"lodash": "^4.17.21",
+		"nodemon": "^2.0.12",
+		"ts-node": "^10.1.0",
+		"typescript": "^4.3.5"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.29.0",
+		"@typescript-eslint/parser": "^4.29.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^3.4.0",
+		"eslint-plugin-react": "^7.24.0",
+		"prettier": "^2.3.2"
+	}
+}
