@@ -1,23 +1,31 @@
 interface IData {
-	nums: number[]
-	n: number
+	maze: string[][]
+	entrance: number[]
 	result: number
 }
 
 export const data: IData[] = [
 	{
-		nums: [1, 3],
-		n: 6,
-		result: 1
-	},
-	{
-		nums: [1, 5, 10],
-		n: 20,
+		maze: [
+			['+', '+', '.', '+'],
+			['.', '.', '.', '+'],
+			['+', '+', '+', '.']
+		],
+		entrance: [1, 2],
 		result: 2
 	},
 	{
-		nums: [1, 2, 2],
-		n: 5,
-		result: 0
+		maze: [
+			['+', '+', '+'],
+			['.', '.', '.'],
+			['+', '+', '+']
+		],
+		entrance: [1, 0],
+		result: -1
+	},
+	{
+		maze: [['.', '+']],
+		entrance: [0, 0],
+		result: -1
 	}
 ]
